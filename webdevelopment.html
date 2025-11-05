@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="We are a results-driven digital agency committed to building long-term partnerships and delivering impactful solutions that simplify and elevate everyday operations.">
+    <meta name="keywords"
+        content="ramel techno solutions, ramel techno, ramel, techno solutions, web development, web design, digital marketing, seo, software development, mobile app development, e-commerce solutions, it services, technology solutions, custom software, online marketing, business solutions">
+    <meta name="author" content="Maruthi">
+    <title>Web Development - Ramel Techno Solutions</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+    <link rel="stylesheet" href="./assets/css/plugins.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/colors/orange.css">
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <header class="wrapper bg-soft-primary">
+            <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
+                <div class="container flex-lg-row flex-nowrap align-items-center">
+                    <div class="navbar-brand w-100">
+                        <a href="./index.html">
+                            <img src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
+                        </a>
+                    </div>
+                    <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+                        <div class="offcanvas-header d-lg-none">
+                            <a href="./index.html"><img src="./assets/img/logo-light.png"
+                                    srcset="./assets/img/logo-light@2x.png 2x" alt="" /></a>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="./aboutus.html">About Us</a></li>
+                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#"
+                                        data-bs-toggle="dropdown">Our Services</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="nav-item"><a class="dropdown-item" href="./webDevelopment.html">Web
+                                                Development</a></li>
+                                        <li class="nav-item"><a class="dropdown-item" href="./odoo.html">ODOO</a></li>
+                                        <li class="nav-item"><a class="dropdown-item"
+                                                href="./outsystems.html">OutSystems</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="./careers.html">Careers</a></li>
+                            </ul>
+                            <!-- /.navbar-nav -->
+                        </div>
+                        <!-- /.offcanvas-body -->
+                    </div>
+                    <!-- /.navbar-collapse -->
+                    <div class="navbar-other w-100 d-flex ms-auto">
+                        <ul class="navbar-nav flex-row align-items-center ms-auto">
+                            <li class="nav-item d-none d-md-block">
+                                <a href="./contact.html" class="btn btn-sm btn-primary rounded-pill">Contact</a>
+                            </li>
+                            <li class="nav-item d-lg-none">
+                                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+                            </li>
+                        </ul>
+                        <!-- /.navbar-nav -->
+                    </div>
+                    <!-- /.navbar-other -->
+                </div>
+                <!-- /.container -->
+            </nav>
+            <!-- /.navbar -->
+
+            <!-- /.navbar -->
+            <div class="modal fade" id="modal-signin" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered modal-sm">
+                    <div class="modal-content text-center">
+                        <div class="modal-body">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h2 class="mb-3 text-start">Welcome Back</h2>
+                            <p class="lead mb-6 text-start">Fill your email and password to sign in.</p>
+                            <form class="text-start mb-3">
+                                <div class="form-floating mb-4">
+                                    <input type="email" class="form-control" placeholder="Email" id="loginEmail">
+                                    <label for="loginEmail">Email</label>
+                                </div>
+                                <div class="form-floating password-field mb-4">
+                                    <input type="password" class="form-control" placeholder="Password"
+                                        id="loginPassword">
+                                    <span class="password-toggle"><i class="uil uil-eye"></i></span>
+                                    <label for="loginPassword">Password</label>
+                                </div>
+                                <a class="btn btn-primary rounded-pill btn-login w-100 mb-2">Sign In</a>
+                            </form>
+                            <!-- /form -->
+                            <p class="mb-1"><a href="#" class="hover">Forgot Password?</a></p>
+                            <p class="mb-0">Don't have an account? <a href="#" data-bs-target="#modal-signup"
+                                    data-bs-toggle="modal" data-bs-dismiss="modal" class="hover">Sign up</a></p>
+                            <div class="divider-icon my-4">or</div>
+                            <nav class="nav social justify-content-center text-center">
+                                <a href="#" class="btn btn-circle btn-sm btn-google"><i class="uil uil-google"></i></a>
+                                <a href="#" class="btn btn-circle btn-sm btn-facebook-f"><i
+                                        class="uil uil-facebook-f"></i></a>
+                                <a href="#" class="btn btn-circle btn-sm btn-twitter"><i
+                                        class="uil uil-twitter"></i></a>
+                            </nav>
+                            <!--/.social -->
+                        </div>
+                        <!--/.modal-content -->
+                    </div>
+                    <!--/.modal-body -->
+                </div>
+                <!--/.modal-dialog -->
+            </div>
+            <!--/.modal -->
+            <div class="modal fade" id="modal-signup" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered modal-sm">
+                    <div class="modal-content text-center">
+                        <div class="modal-body">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <h2 class="mb-3 text-start">Sign up to Sandbox</h2>
+                            <p class="lead mb-6 text-start">Registration takes less than a minute.</p>
+                            <form class="text-start mb-3">
+                                <div class="form-floating mb-4">
+                                    <input type="text" class="form-control" placeholder="Name" id="loginName">
+                                    <label for="loginName">Name</label>
+                                </div>
+                                <div class="form-floating mb-4">
+                                    <input type="email" class="form-control" placeholder="Email" id="loginEmail">
+                                    <label for="loginEmail">Email</label>
+                                </div>
+                                <div class="form-floating password-field mb-4">
+                                    <input type="password" class="form-control" placeholder="Password"
+                                        id="loginPassword">
+                                    <span class="password-toggle"><i class="uil uil-eye"></i></span>
+                                    <label for="loginPassword">Password</label>
+                                </div>
+                                <div class="form-floating password-field mb-4">
+                                    <input type="password" class="form-control" placeholder="Confirm Password"
+                                        id="loginPasswordConfirm">
+                                    <span class="password-toggle"><i class="uil uil-eye"></i></span>
+                                    <label for="loginPasswordConfirm">Confirm Password</label>
+                                </div>
+                                <a class="btn btn-primary rounded-pill btn-login w-100 mb-2">Sign Up</a>
+                            </form>
+                            <!-- /form -->
+                            <p class="mb-0">Already have an account? <a href="#" data-bs-target="#modal-signin"
+                                    data-bs-toggle="modal" data-bs-dismiss="modal" class="hover">Sign in</a></p>
+                            <div class="divider-icon my-4">or</div>
+                            <nav class="nav social justify-content-center text-center">
+                                <a href="#" class="btn btn-circle btn-sm btn-google"><i class="uil uil-google"></i></a>
+                                <a href="#" class="btn btn-circle btn-sm btn-facebook-f"><i
+                                        class="uil uil-facebook-f"></i></a>
+                                <a href="#" class="btn btn-circle btn-sm btn-twitter"><i
+                                        class="uil uil-twitter"></i></a>
+                            </nav>
+                            <!--/.social -->
+                        </div>
+                        <!--/.modal-content -->
+                    </div>
+                    <!--/.modal-body -->
+                </div>
+                <!--/.modal-dialog -->
+            </div>
+            <!--/.modal -->
+        </header>
+        <!-- /header -->
+        <section class="wrapper bg-soft-primary">
+            <div class="container pt-10 pb-15 pt-md-14 pb-md-20 text-center">
+                <div class="row">
+                    <div class="col-md-10 col-lg-10 col-xl-10 col-xxl-9 mx-auto mb-13" data-cues="slideInDown"
+                        data-group="page-title">
+                        <h1 class="display-1 mb-4">Best Web Development Company in India</h1>
+                        <p class="lead fs-lg px-xl-12 px-xxl-6 mb-3">Build Faster. Smarter. Future-Ready Websites.</p>
+                        <p>At Ramel, we craft intelligent, scalable, and secure digital experiences tailored to your
+                            business goals. As the Best Web Development Company in Chennai, we build web applications
+                            and digital platforms that are fast, user-centric, SEO-friendly, and AI-ready. Whether you
+                            need a complex enterprise portal, a dynamic eCommerce solution, or a visually striking
+                            corporate website — Ramel techno solutions is your trusted partner.</p>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
+        <section class="wrapper bg-light">
+            <div class="container pb-14 pb-md-16 mb-lg-21 mb-xl-23">
+                <div class="row gx-0 mb-16 mb-mb-20">
+                    <div class="col-9 col-sm-10 col-lg-9 mx-auto mt-n15 mt-md-n20" data-cues data-group="images"
+                        data-delay="1500">
+                        <img class="img-fluid mx-auto rounded shadow-lg" data-cue="slideInUp"
+                            src="./assets/img/photos/sa1.jpg" srcset="./assets/img/photos/sa1@2x.jpg 2x" alt="" />
+                        <img class="position-absolute rounded shadow-lg" data-cue="slideInRight"
+                            src="./assets/img/photos/sa2.jpg" srcset="./assets/img/photos/sa2@2x.jpg 2x"
+                            style="top: 20%; right:-10%; max-width:30%; height: auto;" alt="" />
+                        <img class="position-absolute rounded shadow-lg" data-cue="slideInLeft"
+                            src="./assets/img/photos/sa3.jpg" srcset="./assets/img/photos/sa3@2x.jpg 2x"
+                            style="top: 10%; left:-10%; max-width:30%; height: auto;" alt="" />
+                        <img class="position-absolute rounded shadow-lg" data-cue="slideInLeft"
+                            src="./assets/img/photos/sa4.jpg" srcset="./assets/img/photos/sa4@2x.jpg 2x"
+                            style="bottom: 10%; left:-13%; max-width:30%; height: auto;" alt="" />
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+                <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-14 mb-md-18">
+                    <div class="col-lg-6 position-relative">
+                        <div class="shape rounded bg-pale-red rellax d-block" data-rellax-speed="0"
+                            style="top: 50%; left: 50%; width: 50%; height: 60%; transform: translate(-50%,-50%);z-index:0">
+                        </div>
+                        <div class="row gx-md-5 gy-5 position-relative">
+                            <div class="col-6">
+                                <img class="img-fluid rounded shadow-lg mb-5" data-cue="fadeIn" data-delay="300"
+                                    src="./assets/img/photos/sa5.jpg" srcset="./assets/img/photos/sa5@2x.jpg 2x"
+                                    alt="" />
+                                <img class="img-fluid rounded shadow-lg d-flex col-10 ms-auto" data-cue="fadeIn"
+                                    data-delay="600" src="./assets/img/photos/sa6.jpg"
+                                    srcset="./assets/img/photos/sa6@2x.jpg 2x" alt="" />
+                            </div>
+                            <!-- /column -->
+                            <div class="col-6">
+                                <img class="img-fluid rounded shadow-lg my-5" data-cue="fadeIn" data-delay="900"
+                                    src="./assets/img/photos/sa7.jpg" srcset="./assets/img/photos/sa7@2x.jpg 2x"
+                                    alt="" />
+                                <img class="img-fluid rounded shadow-lg d-flex col-10" data-cue="fadeIn"
+                                    data-delay="1200" src="./assets/img/photos/sa8.jpg"
+                                    srcset="./assets/img/photos/sa8@2x.jpg 2x" alt="" />
+                            </div>
+                            <!-- /column -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-lg-6">
+                        <h3 class="display-4 mb-5"> Custom Website Development </h3>
+                        <p class="mb-5">At Ramel, we specialize in custom website development that’s built around your
+                            unique business requirements.
+                            As a top web development company in Chennai, we deliver scalable and secure web solutions
+                            tailored for industries such as logistics, manufacturing, healthcare, HR, and more.
+                            Whether you need an inventory management system, logistics portal, custom HR platform, or
+                            any industry-specific web application, our expert developers in India craft digital
+                            solutions that streamline operations, enhance user experience, and support business growth.
+                        </p>
+                        <div class="row gy-3">
+                            <div class="col-xl-12">
+                                <ul class="icon-list bullet-bg bullet-soft-red mb-0">
+                                    <li><span><i class="uil uil-check"></i></span><span>Fully customized UI/UX</span>
+                                    </li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Robust backend
+                                            architecture</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Scalable,
+                                            SEO-friendly codebase</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Optimized for
+                                            performance and security</span></li>
+                                </ul>
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                        <p class="mb-5">Build future-ready web solutions that align with your business goals and deliver
+                            measurable impact.</p>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+                <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center mb-14 mb-md-18">
+                    <div class="col-lg-6 position-relative order-lg-2">
+                        <div class="shape rounded bg-pale-green rellax d-block" data-rellax-speed="0"
+                            style="top: 50%; left: 50%; width: 50%; height: 60%; transform: translate(-50%,-50%);z-index:0">
+                        </div>
+                        <div class="row gx-md-5 gy-5 position-relative">
+                            <div class="col-5">
+                                <img class="img-fluid rounded shadow-lg my-5 d-flex ms-auto" data-cue="fadeIn"
+                                    data-delay="300" src="./assets/img/photos/sa9.jpg"
+                                    srcset="./assets/img/photos/sa9@2x.jpg 2x" alt="" />
+                                <img class="img-fluid rounded shadow-lg d-flex col-10 ms-auto" data-cue="fadeIn"
+                                    data-delay="600" src="./assets/img/photos/sa10.jpg"
+                                    srcset="./assets/img/photos/sa10@2x.jpg 2x" alt="" />
+                            </div>
+                            <!-- /column -->
+                            <div class="col-7">
+                                <img class="img-fluid rounded shadow-lg mb-5" data-cue="fadeIn" data-delay="900"
+                                    src="./assets/img/photos/sa11.jpg" srcset="./assets/img/photos/sa11@2x.jpg 2x"
+                                    alt="" />
+                                <img class="img-fluid rounded shadow-lg d-flex col-11" data-cue="fadeIn"
+                                    data-delay="1200" src="./assets/img/photos/sa12.jpg"
+                                    srcset="./assets/img/photos/sa12@2x.jpg 2x" alt="" />
+                            </div>
+                            <!-- /column -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-lg-6">
+                        <h3 class="display-4 mb-5"> UI/UX Web Design </h3>
+                        <p class="mb-5"> At Ramel, a leading web design company in Chennai, we offer intuitive and
+                            usercentric UI/UX design services that enhance engagement, boost conversions, and elevate
+                            your brand identity
+                            Our design experts combine strategy, creativity, and the latest design trends to craft
+                            interfaces that are not only visually stunning but also highly functional across all
+                            devices.
+                            We focus on building responsive, mobile-first designs, interactive wireframes, and seamless
+                            user journeys that keep users engaged and coming back.
+                        </p>
+                        <div class="row gy-3">
+                            <div class="col-xl-12">
+                                <ul class="icon-list bullet-bg bullet-soft-red mb-0">
+                                    <li><span><i class="uil uil-check"></i></span><span>User-focused design
+                                            approach</span>
+                                    </li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Responsive web
+                                            design for all screen sizes</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Wireframing,
+                                            prototyping & UI testing</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>SEO- and
+                                            accessibility-optimized layouts</span></li>
+                                </ul>
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                        <p class="mb-5">Partner with a UI/UX web design expert in India and deliver unforgettable
+                            digital experiences that drive measurable results.</p>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+                <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+                    <div class="col-lg-6 position-relative">
+                        <div class="shape rounded bg-pale-yellow rellax d-block" data-rellax-speed="0"
+                            style="top: 50%; left: 50%; width: 50%; height: 60%; transform: translate(-50%,-50%);z-index:0">
+                        </div>
+                        <div class="row gx-md-5 gy-5 position-relative align-items-center">
+                            <div class="col-6">
+                                <img class="img-fluid rounded shadow-lg d-flex ms-auto" data-cue="fadeIn"
+                                    data-delay="300" src="./assets/img/photos/sa13.jpg"
+                                    srcset="./assets/img/photos/sa13@2x.jpg 2x" alt="" />
+                            </div>
+                            <!-- /column -->
+                            <div class="col-6">
+                                <img class="img-fluid rounded shadow-lg mb-5" data-cue="fadeIn" data-delay="900"
+                                    src="./assets/img/photos/sa14.jpg" srcset="./assets/img/photos/sa14@2x.jpg 2x"
+                                    alt="" />
+                                <img class="img-fluid rounded shadow-lg d-flex col-10" data-cue="fadeIn"
+                                    data-delay="1200" src="./assets/img/photos/sa15.jpg"
+                                    srcset="./assets/img/photos/sa15@2x.jpg 2x" alt="" />
+                            </div>
+                            <!-- /column -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-lg-6">
+                        <h3 class="display-4 mb-5"> Web Application Maintenance & Support </h3>
+                        <p class="mb-5"> We offer comprehensive web app maintenance and support services to ensure your
+                            digital platforms remain secure, high-performing, and up-to-date. As a leading website
+                            maintenance company in Chennai, we take a proactive approach to managing your web
+                            applications with routine health checks and continuous optimization.
+                        </p>
+                        <div class="row gy-3">
+                            <div class="col-xl-12">
+                                <ul class="icon-list bullet-bg bullet-soft-red mb-0">
+                                    <li><span><i class="uil uil-check"></i></span><span>Bug identification and resolution</span>
+                                    </li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Performance tuning and load optimization</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Software patches, updates, and version upgrades</span></li>
+                                    <li class="mt-3"><span><i class="uil uil-check"></i></span><span>Security enhancements and threat prevention</span></li>
+                                </ul>
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                        <p class="mb-5">With our ongoing website support services in India, your business can focus on growth while we safeguard and enhance the functionality, speed, and user experience of your web assets.</p>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
+        <section class="wrapper bg-soft-primary">
+            <div class="container py-14 pt-md-16 pt-lg-0 pb-md-16">
+                <div class="row text-center" data-cue="slideInUp">
+                    <div class="col-lg-10 mx-auto">
+                        <div class="mt-lg-n20 mt-xl-n22 position-relative">
+                            <div class="shape bg-dot red rellax w-16 h-18" data-rellax-speed="1"
+                                style="top: 1rem; left: -3.9rem;"></div>
+                            <div class="shape rounded-circle bg-line primary rellax w-18 h-18" data-rellax-speed="1"
+                                style="bottom: 2rem; right: -3rem;"></div>
+                            <video poster="./assets/img/photos/movie.jpg" class="player" playsinline controls
+                                preload="none">
+                                <source src="./assets/media/movie.mp4" type="video/mp4">
+                                <source src="./assets/media/movie.webm" type="video/webm">
+                            </video>
+                        </div>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+                <div class="row text-center mt-12">
+                    <div class="col-lg-12 mx-auto">
+                        <h3 class="display-4 mb-0 text-center px-xl-6 px-xxl-6">Our dedicated support team handles
+                        </h3>
+                        <div class="row gx-lg-8 gx-xl-12 process-wrapper text-center mt-9" data-cues="slideInUp"
+                            data-group="process">
+                            <div class="col-md-4"> <img src="./assets/img/icons/lineal/shield.svg"
+                                    class="svg-inject icon-svg icon-svg-md text-orange mb-3" alt="" />
+                                <h4 class="mb-1">1. Customer Satisfaction</h4>
+                                <p>Achieves high client retention rates</p>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-4"> <img src="./assets/img/icons/lineal/shield.svg"
+                                    class="svg-inject icon-svg icon-svg-md text-orange mb-3" alt="" />
+                                <h4 class="mb-1">2. Global Presence</h4>
+                                <p>Serves clients in 10+ countires</p>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-4"> <img src="./assets/img/icons/lineal/shield.svg"
+                                    class="svg-inject icon-svg icon-svg-md text-orange mb-3" alt="" />
+                                <h4 class="mb-1">3. User Centric Development</h4>
+                                <p>Focuses on intuitive user journeys</p>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-4"> <img src="./assets/img/icons/lineal/shield.svg"
+                                    class="svg-inject icon-svg icon-svg-md text-orange mb-3" alt="" />
+                                <h4 class="mb-1">4. Transparency</h4>
+                                <p>Offers real time project tracking</p>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-4"> <img src="./assets/img/icons/lineal/shield.svg"
+                                    class="svg-inject icon-svg icon-svg-md text-orange mb-3" alt="" />
+                                <h4 class="mb-1">5. Skilled Developers</h4>
+                                <p>Experts in multiple languages and frameworks</p>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-4"> <img src="./assets/img/icons/lineal/shield.svg"
+                                    class="svg-inject icon-svg icon-svg-md text-orange mb-3" alt="" />
+                                <h4 class="mb-1">6. Quality Assurance</h4>
+                                <p>Ensures bug free deployment</p>
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
+
+    </div>
+    <footer class="bg-darkBlue text-inverse">
+        <div class="container py-13 py-md-15">
+            <div class="row gy-6 gy-lg-0">
+                <div class="col-md-4 col-lg-3">
+                    <div class="widget">
+                        <img class="mb-4" src="./assets/img/logo-light.png" srcset="./assets/img/logo-light@2x.png 2x"
+                            alt="" />
+                        <p class="mb-4">© <script>
+                                document.write(new Date().getUTCFullYear());
+                            </script> Ramel Techno Solutions. <br class="d-none d-lg-block" />All rights reserved.</p>
+                        <nav class="nav social social-white">
+                            <a href="#"><i class="uil uil-twitter"></i></a>
+                            <a href="#"><i class="uil uil-facebook-f"></i></a>
+                            <a href="#"><i class="uil uil-dribbble"></i></a>
+                            <a href="#"><i class="uil uil-instagram"></i></a>
+                            <a href="#"><i class="uil uil-youtube"></i></a>
+                        </nav>
+                        <!-- /.social -->
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /column -->
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="widget">
+                        <h4 class="widget-title text-white mb-3">Services</h4>
+                        <ul class="list-unstyled  mb-0">
+                            <li><a href="./webDevelopment.html">Web Development</a></li>
+                            <li><a href="./uiux.html">UI UX Design</a></li>
+                            <li><a href="./outsystems.html">OutSystems </a></li>
+                            <li><a href="./odoo.html">ODOO</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /column -->
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="widget">
+                        <h4 class="widget-title text-white mb-3">Company</h4>
+                        <ul class="list-unstyled  mb-0">
+                            <li><a href="./aboutus.html">About Us</a></li>
+                            <li><a href="./careers.html">Careers</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                            <li><a href="./terms.html">Terms and Conditions</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /column -->
+
+                <div class="col-md-4 col-lg-3">
+                    <div class="widget">
+                        <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+                        <address class="pe-xl-15 pe-xxl-1">No:3, Sridharan St, Ayyavoo Colony, Aminjikarai, Chennai,
+                            Tamil Nadu 600030</address>
+                        <a href="mailto:#">hr@ramel.in</a><br /> 9948866806
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /column -->
+
+            </div>
+            <!--/.row -->
+        </div>
+        <!-- /.container -->
+    </footer>
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/theme.js"></script>
+</body>
+
+</html>
